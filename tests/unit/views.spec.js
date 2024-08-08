@@ -1,7 +1,9 @@
 import { mount } from "@vue/test-utils";
 import ContactView from "@/views/ContactView.vue";
 import AboutView from "@/views/AboutView.vue";
+import HomeView from "@/views/HomeView.vue";
 import { createRouter, createWebHistory } from "vue-router";
+
 
 describe("Test vista 'About'", () => {
   it("Test1 - Snapshot vista 'About' succesful", () => {
@@ -34,7 +36,7 @@ describe("Test vista 'About'", () => {
   });
 });
 
-describe("Tests de vista 'Contact'", () => {
+describe("Test1 de vista 'Contact'", () => {
   it("Test1 - Snapshot vista 'Contact'", () => {
     const wrapper = mount(ContactView);
     expect(wrapper.html()).toMatchSnapshot();
@@ -64,3 +66,11 @@ describe("Tests de vista 'Contact'", () => {
     expect(wrapper.findComponent(ContactView).exists()).toBe(true);
   });
 });
+
+describe("Test3 componente 'HomeView'", () => {
+  it("Test3 - Snapshot componente 'HomeView' succesful", () => {
+    const wrapper = mount(HomeView);
+    expect(wrapper.html()).toMatchSnapshot();
+  })
+})
+

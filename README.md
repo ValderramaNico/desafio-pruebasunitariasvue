@@ -15,11 +15,15 @@
 
 3. Genera una prueba que permita crear un snapshot de la estructura HTML del componente HomeView.vue.
 
-        (ejemplo de página 'About')
-
-![alt text](<src/utils/code 3.png>)
+![alt text](src/utils/code4.png)
 
 4. Genera una prueba que permita crear un snapshot de la estructura HTML del componente About.vue.
 
+(ejemplo de página 'About')
 
+![alt text](<src/utils/code 3.png>)
+
+(SS consola con todos los test) 
+
+![alt text](<src/utils/Captura de pantalla 2024-08-08 182031.png>)
 ### Por Nicolás Valderrama

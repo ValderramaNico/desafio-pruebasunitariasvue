@@ -1,8 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Test componente 'HomeView' test3 - Snapshot componente 'HomeView' succesful 1`] = `<div class="home"></div>`;
+
 exports[`Test vista 'About' Test1 - Snapshot vista 'About' succesful 1`] = `
 <div class="about">
   <h1>Página "about"</h1>
+</div>
+`;
+
+exports[`Test1 de vista 'Contact' Test1 - Snapshot vista 'Contact' 1`] = `
+<div class="contact">
+  <h1>Página "contacto"</h1>
+</div>
+`;
+
+exports[`Test3 componente 'HomeView' Test3 - Snapshot componente 'HomeView' succesful 1`] = `
+<div class="home">
+  <h1>Este es el 'Home'</h1>
 </div>
 `;
 
