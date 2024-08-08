@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test vista 'About' Test1 - Snapshot vista 'About' succesful 1`] = `
+<div class="about">
+  <h1>Página "about"</h1>
+</div>
+`;
+
+exports[`Tests de vista 'Contact' Test1 - Snapshot vista 'Contact' 1`] = `
+<div class="contact">
+  <h1>Página "contacto"</h1>
+</div>
+`;
